@@ -32,16 +32,6 @@ cachemean <- function(x, ...) {
         x$setmean(m)
         m
 }
-> makevector<-1:15
-> list(makeVector)
-[[1]]
- [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-> my_data<-makeVector
-> mean(my_data)
-[1] 8
-> get <- mean(1:15)
-> get
-[1] 8
 Caching the Inverse of a Matrix
 makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 > cachemean <- mean(1:15)
