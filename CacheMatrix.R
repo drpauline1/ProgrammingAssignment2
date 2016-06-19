@@ -1,3 +1,4 @@
+Caching the Mean of a vector:
 > makevector<-1:15
 > list(makeVector)
 [[1]]
