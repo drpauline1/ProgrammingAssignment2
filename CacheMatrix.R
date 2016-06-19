@@ -1,12 +1,6 @@
 > makevector<-1:15
 > list(makeVector)
-Error: object 'makeVector' not found
-> makeVector<- 1:15
-> list(makeVector)
 [[1]]
- [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
-
-> sapply(makeVector, mean)
  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15
 > my_data<-makeVector
 > mean(my_data)
