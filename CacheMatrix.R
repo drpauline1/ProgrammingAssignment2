@@ -52,5 +52,3 @@ x$setInverse(inv)
 inv
 }
 
-
-[1] 8
